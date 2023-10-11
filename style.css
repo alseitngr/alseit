@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+    font-family: "Gabarito";
+    background-image: url(Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-top{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-1{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.nav-1:hover{
+    color: rgba(181, 181, 181, 0.685);
+}
+
+.sale{
+    padding-bottom: 70px;
+}
+
+.text-sale{
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    background-color: #F55656;
+}
+
+.xiaomi{
+    padding-bottom: 50px;
+    color: white;
+    list-style-type: none;
+}
+
+.xi-1{
+    font-size: 48px;
+}
+
+.xi-2{
+    font-size: 96px;
+}
+
+.after-text{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.452);
+    list-style-type: none;
+}
+
+.buy{
+    font-size: 24px;
+    padding-top: 90px;
+}
+
+.press-buy{
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    background-color:  #F58D56;
+}
+
+.press-buy:hover{
+    background-color: #9f5933;
+}
+
+/* .watch{
+    position: relative;
+    bottom: 750px;
+    left: 550px;
+}*/
+
+.money{
+    width: 338px;
+    transform: translate(492px, -174px);
+} 
+
+header {
+    background-image: url(./xiaomi_band_7\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right 276px;
+    background-size: 50%;
+}
